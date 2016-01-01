@@ -55,9 +55,10 @@ class SettingsViewController: UIViewController {
         }
     }
     
-    @IBAction func onTap(sender: AnyObject) {
+    @IBAction func endChangesOnTap(sender: AnyObject) {
         view.endEditing(true)
     }
+
 
     /*
     // MARK: - Navigation
